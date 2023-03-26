@@ -80,7 +80,7 @@ label {
     top: 2px;
     left: 2px;
     width: 50%;
-    height: 32px;
+    height: 30px;
     background: #153416;
     border-radius: 30px;
     transition: all .3s linear;
@@ -135,8 +135,8 @@ label {
     color: #fff;
 }
 
-.input-area input + input {
-    margin-bottom: 22px;
+.input-area {
+    margin-bottom: 7px;
 }
 
 /* ----------- */

@@ -10,70 +10,80 @@
 
   <body class="body">
     <div class="wrapper">
-        <div class="container">
-            <div class="switch">
-                <input id="switch" type="checkbox">
-                <label for="switch">
-                  <span>Вход</span>
-                  <span>Регистрация</span>
-                </label>
-            </div>
-            <h2 class="title">Вход</h2>
-            <div class="input-area">
-              <label for="input-area">
-              <input id="input-area" name="username" type="email" placeholder="Введите E-mail">
-              <input id="input-area" name="userpassword" type="password" placeholder="Пароль" required>
+      <div class="container">
+        <div class="switch">
+          <input id="switch" type="checkbox" />
+          <label for="switch">
+            <span>Вход</span>
+            <span>Регистрация</span>
+          </label>
+        </div>
+        <h2 class="title">Вход</h2>
+        <form action="#" method="post">
+          <div class="input-area">
+            <label for="input-area">
+              <input
+                id="input-area"
+                name="username"
+                type="email"
+                placeholder="Введите E-mail"
+              />
             </label>
-            </div>
-
-            <div class="checkbox-block">
-              <input id="check" type="checkbox">
-              <label for="check">Запомнить меня</label>
-              <a href="#">Забыли пароль?</a>
-            </div>
-
-            <div class="login-button">
-              <button>Войти</button>
-            </div>
-
-            <div class="another-text">
-              <p>Еще нет аккаунта?</p>
-              <a href="#">Зарегестрироваться</a>
-            </div>
-
-            <div class="bottom-title">
-              <p>Или войдите через</p>
-            </div>
-
-
-
-               <ul class="social-block">
-                <li>
-                  <a href="https://www.messenger.com/?locale=ru_RU" target="_blank">
-                    <svg class="icons">
-                      <use href="./img/sprite.svg#facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/" target="_blank">
-                    <svg class="icons">
-                      <use href="./img/sprite.svg#instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://ua.linkedin.com/" target="_blank">
-                    <svg class="icons">
-                      <use href="./img/sprite.svg#in"></use>
-                    </svg>
-                  </a>
-                </li>
-               </ul>
-
-           
-
-
+            <label for="input-area-pass">
+              <input
+                id="input-area-pass"
+                name="userpassword"
+                type="password"
+                placeholder="Пароль"
+                required
+              />
+            </label>
           </div>
+
+          <div class="checkbox-block">
+            <input id="check" name="remember_me" type="checkbox" />
+            <label for="check">Запомнить меня</label>
+            <a href="#">Забыли пароль?</a>
+          </div>
+
+          <div class="login-button">
+            <button>Войти</button>
+          </div>
+        </form>
+
+        <div class="another-text">
+          <p>Еще нет аккаунта?</p>
+          <a href="#">Зарегестрироваться</a>
+        </div>
+
+        <div class="bottom-title">
+          <p>Или войдите через</p>
+        </div>
+
+        <ul class="social-block">
+          <li>
+            <a href="https://www.messenger.com/?locale=ru_RU" target="_blank">
+              <svg class="icons">
+                <use href="./img/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <svg class="icons">
+                <use href="./img/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://ua.linkedin.com/" target="_blank">
+              <svg class="icons">
+                <use href="./img/sprite.svg#in"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
+</html>
